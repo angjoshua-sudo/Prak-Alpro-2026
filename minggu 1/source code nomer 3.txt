@@ -1,0 +1,13 @@
+import math
+
+uang_awal = 20000000
+uang_akhir = 40000000
+bunga = 0.1
+periode_bunga_setahun = 1
+
+waktu = math.ceil(
+    math.log(uang_akhir / uang_awal) /
+    (periode_bunga_setahun * math.log(1 + bunga / periode_bunga_setahun))
+)
+
+waktu
