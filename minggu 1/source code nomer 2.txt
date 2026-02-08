@@ -1,0 +1,25 @@
+emas_awal = 650000
+beli = 25
+emas_naik = 685000
+
+keuntungan_rupiah = (emas_naik - emas_awal) * beli
+keuntungan_persen = (emas_naik - emas_awal) / emas_awal * 100
+
+keuntungan_rupiah
+keuntungan_persen
+
+
+beli_lagi = 15
+emas_naik_kedua = 715000
+
+uang1 = emas_awal * beli
+uang2 = emas_naik * beli_lagi
+total_uang = uang1 + uang2
+
+uang3 = (beli + beli_lagi) * emas_naik_kedua
+keuntungan_rupiah_kedua = uang3 - total_uang
+
+keuntungan_persen_kedua = keuntungan_rupiah_kedua / total_uang * 100
+
+keuntungan_rupiah_kedua
+keuntungan_persen_kedua
