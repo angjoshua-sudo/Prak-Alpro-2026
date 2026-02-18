@@ -1,20 +1,20 @@
 MENGHITUNG_FAKTORIAL
 
 DEKLARASI
-variable NILAI FAKTORIAL, FAKTORIAL, I : integer
+variable nilai_faktorial, faktorial, I : integer
 
 DESKRIPSI
-INPUT NILAI FAKTORIAL
+INPUT nilai_faktorial
 
-IF NILAI FAKTORIAL < 0 THEN
-	OUTPUT TIDAK BOLEH NEGATIF
+IF nilai_faktorial< 0 THEN
+	OUTPUT "TIDAK BOLEH NEGATIF"
 ELSE
-	FAKTORIAL = 1
+	faktorial = 1
 	I = 1
 	
-	WHILE I <= NILAI FAKTORIAL 
-		FAKTORIAL = FAKTORIAL*I
+	WHILE I <= nilai_faktorial DO
+		faktorial = faktorial*I
 		I = I + 1
-	
-	OUTPUT FAKTORIAL
-
+	ENDWHILE
+	OUTPUT faktorial
+ENDIF
